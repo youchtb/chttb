@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<debug>0</debug>
+<host>88.212.206.137</host>
+<port>11111</port><ports>11111, 11211, 11311 | 80, 21</ports>
+	<urls>
+		<errors>//88.212.207.7/squirrels/squirrels/ru/predefault/errors.php</errors>
+		<emblem>//88.212.206.112/squirrels/emblem_upload.php</emblem>
+
+		<photo>
+			<base>//squirrels.itsrealgames.com/saved2/</base>
+			<save>//88.212.206.112/squirrels/photo_save.php</save>
+		</photo>
+
+		<screenshot>//88.212.206.112/squirrels/screenshot_upload.php</screenshot>
+		<wall>//squirrels2.itsrealgames.com/wall.swf</wall>
+		<history>//squirrels2.itsrealgames.com/history.swf</history>
+		<historyHare>//squirrels.itsrealgames.com/test/hareHistory5.swf</historyHare>
+		<sounds>//squirrelsa.realcdn.ru/test/sounds/</sounds>
+		<soundsConfig>//squirrelsa.realcdn.ru/test/sounds.xml</soundsConfig>
+		<images>//squirrelsa.realcdn.ru/test/images/</images>
+		<previews>//squirrelsa.realcdn.ru/test/content/previews/</previews>
+		<previewsCast>//squirrelsa.realcdn.ru/test/content/previews/cast/</previewsCast>
+		<previewsClothes>//squirrelsa.realcdn.ru/test/content/previews/clothes/</previewsClothes>
+		<content>//squirrelsa.realcdn.ru/test/content.xml</content>
+		<offers>//squirrels.itsrealgames.com/test/offers.xml</offers>
+		<achievements>//squirrels2.itsrealgames.com/release/achievements/</achievements>
+		<achievesImages>//squirrels2.itsrealgames.com/release/images/</achievesImages>
+	</urls>
+	<networks>
+		<vk id="0">
+			<secret/>
+		</vk>
+		<mm id="1">
+			<secret>793e0918350465c4f7f01bb86948ee56</secret>
+		</mm>
+		<ok id="4">
+			<secret>CBACEKFBABABABABA</secret>
+		</ok>
+		<fb id="5">
+			<app>103918979735374</app>
+			<buy_url>https://squirrelspay.realcdn.ru/buy_fb.php</buy_url>
+			<products_url>https://squirrelspay.realcdn.ru/products/</products_url>
+		</fb>
+		<fs id="30">
+			<secret>012DED987E7ED52EC014</secret>
+			<products_url>https://squirrels2.itsrealgames.com/release/images/</products_url>
+		</fs>
+		<sa id="32">
+			<secret>ba61bc62bc457a13d1349b752705772f</secret>
+			<api_url>https://games.itsrealgames.com/api.php</api_url>
+		</sa>
+	</networks>
+</config>
